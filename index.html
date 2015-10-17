@@ -4,7 +4,15 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script>
 
+    var answer = confirm("Are you sure you want to go against mythical Poncho DaCat?");
+      if (answer) {
+        alert ("God willing, you will prevail young blood!");
+      } else {
+        alert ("Punk Bitch.");
+      }
+    var userName = prompt("What is your name?");
     var userChoice = prompt("Do you choose rock, paper or scissors?");
+
 
     var computerChoice = Math.random();
 
@@ -48,6 +56,7 @@
   <body>
     <div class="wrapper">
       <button class="button" onclick="compare(userChoice, computerChoice);">LETS PLAY RPS!</button>
+      <button onclick="window.location.reload();">Play Again!</button>
     </div>
   </body>
 

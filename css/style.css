@@ -1,3 +1,12 @@
+body {
+    background-image: url("http://orig00.deviantart.net/72be/f/2013/121/9/7/nyancat_taco_by_sally_flower-d63pjz3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-color: #cccccc;
+}
+
 .wrapper {
     text-align: center;
 }
